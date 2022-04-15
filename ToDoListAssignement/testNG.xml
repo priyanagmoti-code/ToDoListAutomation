@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ABN-AMRO Account Opening Automation Test Suite">
+
+	<test name="ToDo list positive tests">
+
+		<parameter name="url"
+			value="https://todomvc.com/examples/angular2/" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class
+				name="todolist.assignment.tests.TC01TodoListPositiveTests"></class>
+		</classes>
+	</test>
+	
+	<test name="ToDo list Negative tests">
+
+		<parameter name="url"
+			value="https://todomvc.com/examples/angular2/" />
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class
+				name="todolist.assignment.tests.TC02ToDoListNegativeTests"></class>
+		</classes>
+	</test>
+
+
+</suite>
+
+
